@@ -16,3 +16,20 @@
 * Operadores lógicos (and, or, not)
 * Operadores de comparación (>, <, >=, <=, ==, !=)
 * Input
+
+### Sesión 02
+
+* Estructura de control: if
+* Estructura de repetición: while, for
+* Tuplas
+* Conjuntos
+* Listas
+
+### Sesión 03
+
+* Diccionarios
+* Funciones
+* Módulos
+* Docstrings
+* Python Standard Library
+* Pip
