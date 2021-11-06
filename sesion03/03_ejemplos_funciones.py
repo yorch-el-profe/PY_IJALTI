@@ -70,4 +70,27 @@ def sumaInfinita(*numeros):
 
   return total
 
-print(sumaInfinita(100, 40, 10, 22, 2, 3, 2, 12, 3, 5, 5, 6, 3, 2, 234))
+#print(sumaInfinita(100, 40, 10, 22, 2, 3, 2, 12, 3, 5, 5, 6, 3, 2, 234))
+
+"""
+5. Crear una función que reciba una cantidad indeterminada de parámetros
+y una operacion matemática a ejecutar.
+"""
+# keyword param  ->  param = valor
+def math(*numeros, op):
+  if op == "+":
+    return sumaInfinita(*numeros)
+  else:
+    return 0
+
+def mathv2(op, *numeros):
+  if op == "+":
+    return sumaInfinita(*numeros)
+  else:
+    return 0
+
+# Usando keyword params
+print(math(1, 2, 3, 4, 5, 4, 5, 6, 67, 78, 8, 8, 9, 9, op="+"))
+
+# Sin usar keyword params
+#print(mathv2('+', 1,2,3,4,5,4,5,6,67,78,8,8,9,9))
