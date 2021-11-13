@@ -33,3 +33,8 @@
 * Docstrings
 * Python Standard Library
 * Pip
+
+### Sesión 04
+
+* Clases y Objetos
+* Métodos y Atributos
