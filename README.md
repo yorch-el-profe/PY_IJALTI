@@ -38,3 +38,9 @@
 
 * Clases y Objetos
 * Métodos y Atributos
+* Herencia
+
+### Sesión 05
+
+* Decoradores
+* Manejo de errores
